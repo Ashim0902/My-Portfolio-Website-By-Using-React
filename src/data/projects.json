@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "title": "NepaliThali",
+    "description": "A beautiful website showcasing traditional Nepali cuisine and culture. Features an elegant design with information about various Nepali dishes, cultural significance, and authentic recipes. Built with modern web technologies to provide an immersive experience of Nepali food culture.",
+    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "githubUrl": "https://github.com/Ashim0902/NepaliThali",
+    "liveUrl": "https://nepalithali.netlify.app/",
+    "featured": true,
+    "category": "web-apps"
+  }
+]

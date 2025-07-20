@@ -1,0 +1,151 @@
+%PDF-1.4
+1 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+
+2 0 obj
+<<
+/Type /Pages
+/Kids [3 0 R]
+/Count 1
+>>
+endobj
+
+3 0 obj
+<<
+/Type /Page
+/Parent 2 0 R
+/MediaBox [0 0 612 792]
+/Contents 4 0 R
+/Resources <<
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+>>
+>>
+>>
+endobj
+
+4 0 obj
+<<
+/Length 2500
+>>
+stream
+BT
+/F1 24 Tf
+50 750 Td
+(ASHIM) Tj
+0 -30 Td
+/F2 12 Tf
+(Software Engineer & Full-Stack Developer) Tj
+
+0 -40 Td
+/F1 14 Tf
+(CONTACT INFORMATION) Tj
+0 -20 Td
+/F2 10 Tf
+(Email: ashimzwork1@gmail.com) Tj
+0 -15 Td
+(Phone: +977 9701683070) Tj
+0 -15 Td
+(Location: Pokhara, Nepal) Tj
+
+0 -30 Td
+/F1 14 Tf
+(EDUCATION) Tj
+0 -20 Td
+/F2 10 Tf
+(2026-2030: Bachelor in Software Engineering) Tj
+0 -15 Td
+(2022-2025: Grade 9-12 in Computer Engineering) Tj
+
+0 -30 Td
+/F1 14 Tf
+(TECHNICAL SKILLS) Tj
+0 -20 Td
+/F2 10 Tf
+(Frontend: HTML, CSS, JavaScript, React, Tailwind CSS) Tj
+0 -15 Td
+(Backend: Node.js) Tj
+0 -15 Td
+(Database: MongoDB) Tj
+0 -15 Td
+(Tools: Git, GitHub) Tj
+
+0 -30 Td
+/F1 14 Tf
+(CREATIVE SKILLS) Tj
+0 -20 Td
+/F2 10 Tf
+(Web Designing, Web Development, Web App Development) Tj
+0 -15 Td
+(Photography, Video Editing, Photo/Video Production) Tj
+
+0 -30 Td
+/F1 14 Tf
+(EXPERIENCE) Tj
+0 -20 Td
+/F2 10 Tf
+(2026: 6 months Internship/OJT in Software) Tj
+0 -15 Td
+(2025: 3 months Internship/OJT in Software) Tj
+0 -15 Td
+(2024: 3 months Internship/OJT in Hardware) Tj
+0 -15 Td
+(2025: 1 month Workshop) Tj
+0 -15 Td
+(2024: 1 month Workshop) Tj
+
+0 -30 Td
+/F1 14 Tf
+(PROJECTS) Tj
+0 -20 Td
+/F2 10 Tf
+(NepaliThali - Traditional Nepali Food Website) Tj
+0 -15 Td
+(Technologies: HTML, CSS, JavaScript, React) Tj
+0 -15 Td
+(GitHub: github.com/Ashim0902/NepaliThali) Tj
+0 -15 Td
+(Live: nepalithali.netlify.app) Tj
+
+ET
+endstream
+endobj
+
+5 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica-Bold
+>>
+endobj
+
+6 0 obj
+<<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+endobj
+
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000274 00000 n 
+0000002826 00000 n 
+0000002903 00000 n 
+trailer
+<<
+/Size 7
+/Root 1 0 R
+>>
+startxref
+2975
+%%EOF
