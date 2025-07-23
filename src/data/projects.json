@@ -3,10 +3,31 @@
     "id": 1,
     "title": "NepaliThali",
     "description": "A beautiful website showcasing traditional Nepali cuisine and culture. Features an elegant design with information about various Nepali dishes, cultural significance, and authentic recipes. Built with modern web technologies to provide an immersive experience of Nepali food culture.",
-    "technologies": ["HTML", "CSS", "JavaScript", "React"],
+    "technologies": [
+      "React",
+      "Tailwind CSS",
+      "Node JavaScript",
+      "React"
+    ],
     "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800",
     "githubUrl": "https://github.com/Ashim0902/NepaliThali",
     "liveUrl": "https://nepalithali.netlify.app/",
+    "featured": true,
+    "category": "web-apps"
+  },
+  {
+    "id": 2,
+    "title": "Harmonify- Music App By-Ashim ADK",
+    "description": "A music application that allows users to explore and enjoy a wide range of music tracks. The app features a user-friendly interface, search functionality, and the ability to create and manage playlists. Built with React for a dynamic user experience.",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON"
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNR2zf7e4BJJYwmizfnsMDPu0AiMAFF-2Zj4lC2EoYbUw9O6eLwTuhSIrMDetvsOGKkos&usqp=CAU",
+    "githubUrl": "#",
+    "liveUrl": "#",
     "featured": true,
     "category": "web-apps"
   }
