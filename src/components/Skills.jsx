@@ -1,5 +1,14 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Code, Database, Globe, Camera, Video, Palette, GitBranch, Monitor } from 'lucide-react';
+import React, { useState, useEffect, useRef } from "react";
+import {
+  Code,
+  Database,
+  Globe,
+  Camera,
+  Video,
+  Palette,
+  GitBranch,
+  Monitor,
+} from "lucide-react";
 
 const Skills = () => {
   const [visibleSkills, setVisibleSkills] = useState(false);
@@ -10,39 +19,33 @@ const Skills = () => {
       title: "Frontend Development",
       icon: <Globe className="h-6 w-6" />,
       skills: [
-        { name: "HTML", level: 95 },
-        { name: "CSS", level: 90 },
-        { name: "JavaScript", level: 85 },
-        { name: "React", level: 80 },
-        { name: "Tailwind CSS", level: 85 }
-      ]
+        { name: "HTML" },
+        { name: "CSS" },
+        { name: "JavaScript" },
+        { name: "React" },
+        { name: "Tailwind CSS" },
+      ],
     },
     {
       title: "Backend Development",
       icon: <Database className="h-6 w-6" />,
-      skills: [
-        { name: "Node.js", level: 75 },
-        { name: "MongoDB", level: 70 }
-      ]
+      skills: [{ name: "Node.js" }, { name: "MongoDB" }],
     },
     {
       title: "Tools & Technologies",
       icon: <Code className="h-6 w-6" />,
-      skills: [
-        { name: "Git", level: 80 },
-        { name: "GitHub", level: 85 }
-      ]
+      skills: [{ name: "Git" }, { name: "GitHub" }],
     },
     {
       title: "Design & Media",
       icon: <Camera className="h-6 w-6" />,
       skills: [
-        { name: "Web Design", level: 80 },
-        { name: "Photography", level: 85 },
-        { name: "Video Editing", level: 75 },
-        { name: "Photo/Video Production", level: 80 }
-      ]
-    }
+        { name: "Web Design" },
+        { name: "Photography" },
+        { name: "Video Editing" },
+        { name: "Photo/Video Production" },
+      ],
+    },
   ];
 
   const additionalSkills = [
@@ -51,7 +54,7 @@ const Skills = () => {
     { name: "Web App Development", icon: <Globe className="h-5 w-5" /> },
     { name: "Photo/Video Graphy", icon: <Camera className="h-5 w-5" /> },
     { name: "Click Photos/Videos", icon: <Camera className="h-5 w-5" /> },
-    { name: "Video Editing", icon: <Video className="h-5 w-5" /> }
+    { name: "Video Editing", icon: <Video className="h-5 w-5" /> },
   ];
 
   useEffect(() => {
@@ -75,24 +78,24 @@ const Skills = () => {
   const calculateExperience = () => {
     const currentYear = new Date().getFullYear();
     const currentMonth = new Date().getMonth() + 1;
-    
+
     // Calculate total months of experience
     // 2024: 3 months hardware + 1 month workshop = 4 months
-    // 2025: 3 months software + 1 month workshop = 4 months  
+    // 2025: 3 months software + 1 month workshop = 4 months
     // 2026: 6 months software = 6 months
     // Total: 14 months
     const totalMonths = 14;
-    
+
     // Projects completed (currently 1 - NepaliThali)
     const projectsCompleted = 1;
-    
+
     // Total internships (3 internships)
     const internships = 3;
-    
+
     return {
       months: totalMonths,
       projects: projectsCompleted,
-      internships: internships
+      internships: internships,
     };
   };
 
@@ -108,7 +111,8 @@ const Skills = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A comprehensive overview of my technical skills and creative abilities developed through education and hands-on experience
+            A comprehensive overview of my technical skills and creative
+            abilities developed through education and hands-on experience
           </p>
         </div>
 
@@ -121,15 +125,13 @@ const Skills = () => {
             >
               <div className="flex items-center mb-6">
                 <div className="bg-orange-900/30 p-3 rounded-lg mr-4 border border-orange-500/20">
-                  <div className="text-orange-400">
-                    {category.icon}
-                  </div>
+                  <div className="text-orange-400">{category.icon}</div>
                 </div>
                 <h3 className="text-2xl font-bold text-white">
                   {category.title}
                 </h3>
               </div>
-              
+
               <div className="space-y-6">
                 {category.skills.map((skill, skillIndex) => (
                   <div key={skill.name} className="space-y-2">
@@ -138,17 +140,11 @@ const Skills = () => {
                         {skill.name}
                       </span>
                       <span className="text-sm text-gray-400">
-                        {skill.level}%
+                        {skill.level}
                       </span>
                     </div>
                     <div className="w-full bg-gray-700 rounded-full h-2">
-                      <div
-                        className="bg-gradient-to-r from-orange-500 to-orange-600 h-2 rounded-full transition-all duration-1000 ease-out"
-                        style={{
-                          width: visibleSkills ? `${skill.level}%` : '0%',
-                          transitionDelay: `${(index * 4 + skillIndex) * 100}ms`
-                        }}
-                      ></div>
+                      <div className="bg-gradient-to-r from-orange-500 to-orange-600 h-2 rounded-full"></div>
                     </div>
                   </div>
                 ))}
@@ -185,21 +181,28 @@ const Skills = () => {
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">Learning Journey</h3>
             <p className="text-lg opacity-90 mb-6 max-w-3xl mx-auto">
-              Currently pursuing Bachelor's in Software Engineering (2026-2030) with hands-on experience 
-              from multiple internships and workshops. Passionate about continuous learning and staying 
-              updated with the latest technologies.
+              Currently pursuing Bachelor's in Software Engineering (2026-2030)
+              with hands-on experience from multiple internships and workshops.
+              Passionate about continuous learning and staying updated with the
+              latest technologies.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">{experience.months}+</div>
+                <div className="text-3xl font-bold mb-2">
+                  {experience.months}+
+                </div>
                 <div className="text-sm opacity-90">Months of Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">{experience.projects}+</div>
+                <div className="text-3xl font-bold mb-2">
+                  {experience.projects}+
+                </div>
                 <div className="text-sm opacity-90">Projects Completed</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold mb-2">{experience.internships}</div>
+                <div className="text-3xl font-bold mb-2">
+                  {experience.internships}
+                </div>
                 <div className="text-sm opacity-90">Internships</div>
               </div>
             </div>
